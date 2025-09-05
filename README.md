@@ -38,6 +38,12 @@ We are going to release code step by step:
 
 Note: Code needs to be cleaned and I will open source all the code within next several month. As I promised.
 
+## Get Started
+
+## Acknowledgement
+
+FlowDrive is greatly inspired by the following outstanding contributions to the open-source community: [NAVSIM](https://github.com/autonomousvision/navsim), [Transfuser](https://github.com/autonomousvision/transfuser), [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [GoalFlow](https://github.com/YvanYin/GoalFlow).
+
 ## 📄 Citation
 
 If you find FlowDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
@@ -45,4 +51,5 @@ If you find FlowDrive is useful in your research or applications, please conside
 ```bibtex
 xxx
 ```
+
 
