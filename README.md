@@ -42,10 +42,10 @@ Note: Code needs to be cleaned and I will open source all the code within next s
 
 ## Table of Contents
 - [Abstract](#Abstract)
-<!-- - [Qualitative Results on NAVSIM Navtest](#qualitative-results-on-navsim-navtest) -->
 - [Getting Started](#getting-started)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
+<!-- - [Qualitative Results on NAVSIM Navtest](#qualitative-results-on-navsim-navtest) -->
 
 
 ## Abstract         
