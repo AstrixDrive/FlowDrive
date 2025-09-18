@@ -1,7 +1,7 @@
 <div align="center">
-<h3>FlowDrive: Learning to Drive Safely with Flow Fields for End-to-End Autonomous Driving</h3>
+<h3>FlowDrive: Energy Flow Field for End-to-End Autonomous Driving</h3>
 
-[Hao Jiang](https://github.com/Sunstroperao)<sup>1</sup>, [Zhipeng Zhang](https://scholar.google.com/citations?hl=zh-CN&user=7Ws0QHYAAAAJ)<sup>1</sup>, Yu Gao<sup>2</sup>, [Zhigang Sun](https://github.com/SunZhigang7)<sup>2</sup>, Yiru Wang<sup>2</sup>, Yuwen Heng<sup>2</sup>, Shuo Wang<sup>2</sup>, Jinhao Chai<sup>4</sup>, Zhuo Chen<sup>1</sup>, Hao Zhao<sup>3</sup>, Hao Sun<sup>2</sup>, Xi Zhang<sup>1</sup>, [Anqing Jiang](https://github.com/PeterJaq)<sup>2✉</sup>, [Chuan Hu](https://scholar.google.com/citations?hl=zh-CN&user=xRgru9YAAAAJ)<sup>1✉</sup>,
+[Hao Jiang](https://github.com/Sunstroperao)<sup>1</sup>, [Zhipeng Zhang](https://scholar.google.com/citations?hl=zh-CN&user=7Ws0QHYAAAAJ)<sup>1</sup>, Yu Gao<sup>2</sup>, [Zhigang Sun](https://github.com/SunZhigang7)<sup>2</sup>, Yiru Wang<sup>2</sup>, Yuwen Heng<sup>2</sup>, Shuo Wang<sup>2</sup>, Jinhao Chai<sup>4</sup>, Zhuo Chen<sup>1</sup>, Hao Zhao<sup>3</sup>, Hao Sun<sup>2</sup>, Xi Zhang<sup>1</sup>, [Anqing Jiang](https://github.com/PeterJaq)<sup>2✉</sup>, [Chuan Hu](https://scholar.google.com/citations?hl=zh-CN&user=xRgru9YAAAAJ)<sup>1✉</sup>
 
 <sup>1</sup>Shanghai Jiao Tong University  
 <sup>2</sup>Bosch Corporate Research, Shanghai, China
@@ -45,18 +45,32 @@ Recent advances in end-to-end autonomous driving leverage multi-view images to c
 ## Updates
 We are going to release code step by step:
 - [x] Release Paper  
-- [] Release Full Models and Training/Evaluation Framework   
-- [] Release updated paper
+- [ ] Release Full Models and Training/Evaluation Framework   
+- [ ] Release updated paper
 
 Note: Code needs to be cleaned and I will open source all the code within next several month. As I promised.
 
-## Get Started
+## Table of Contents
+- [Abstract](#Abstract)
+<!-- - [Qualitative Results on NAVSIM Navtest](#qualitative-results-on-navsim-navtest) -->
+- [Getting Started](#getting-started)
+- [Acknowledgement](#acknowledgement)
+- [Citation](#citation)
+
+
+
+## Getting Started
+- [Download NAVSIM datasets following official instruction](https://github.com/autonomousvision/navsim/blob/main/docs/install.md)
+- [Preparation of FlowDrive environment](docs/install.md)
+- [FlowDrive Training and Evaluation](docs/train_eval.md)
+
+
 
 ## Acknowledgement
 
 FlowDrive is greatly inspired by the following outstanding contributions to the open-source community: [NAVSIM](https://github.com/autonomousvision/navsim), [Transfuser](https://github.com/autonomousvision/transfuser), [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [GoalFlow](https://github.com/YvanYin/GoalFlow).
 
-## 📄 Citation
+## Citation
 
 If you find FlowDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
