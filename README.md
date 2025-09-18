@@ -3,11 +3,10 @@
 
 [Hao Jiang](https://github.com/Sunstroperao)<sup>1</sup>, [Zhipeng Zhang](https://scholar.google.com/citations?hl=zh-CN&user=7Ws0QHYAAAAJ)<sup>1</sup>, Yu Gao<sup>2</sup>, [Zhigang Sun](https://github.com/SunZhigang7)<sup>2</sup>, Yiru Wang<sup>2</sup>, Yuwen Heng<sup>2</sup>, Shuo Wang<sup>2</sup>, Jinhao Chai<sup>4</sup>, Zhuo Chen<sup>1</sup>, Hao Zhao<sup>3</sup>, Hao Sun<sup>2</sup>, Xi Zhang<sup>1</sup>, [Anqing Jiang](https://github.com/PeterJaq)<sup>2✉</sup>, [Chuan Hu](https://scholar.google.com/citations?hl=zh-CN&user=xRgru9YAAAAJ)<sup>1✉</sup>,
 
-
 <sup>1</sup>Shanghai Jiao Tong University  
 <sup>2</sup>Bosch Corporate Research, Shanghai, China
 <sup>3</sup>AIR, Tsinghua University
-<sup>2</sup>Shanghai University
+<sup>4</sup>Shanghai University
 
 (✉) Corresponding author.  
 
