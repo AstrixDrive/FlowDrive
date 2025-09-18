@@ -1,6 +1,17 @@
 <div align="center">
 <h3>FlowDrive: Learning to Drive Safely with Flow Fields for End-to-End Autonomous Driving</h3>
 
+[Hao Jiang](https://github.com/Sunstroperao)<sup>1</sup>, [Zhipeng Zhang](https://scholar.google.com/citations?hl=zh-CN&user=7Ws0QHYAAAAJ)<sup>1</sup>, Yu Gao<sup>2</sup>, [Zhigang Sun](https://github.com/SunZhigang7)<sup>2</sup>, Yiru Wang<sup>2</sup>, Yuwen Heng<sup>2</sup>, Shuo Wang<sup>2</sup>, Jinhao Chai<sup>4</sup>, Zhuo Chen<sup>1</sup>, Hao Zhao<sup>3</sup>, Hao Sun<sup>2</sup>, Xi Zhang<sup>1</sup>, [Anqing Jiang](https://github.com/PeterJaq)<sup>2✉</sup>, [Chuan Hu](https://scholar.google.com/citations?hl=zh-CN&user=xRgru9YAAAAJ)<sup>1✉</sup>,
+
+
+<sup>1</sup>Shanghai Jiao Tong University  
+<sup>2</sup>Bosch Corporate Research, Shanghai, China
+<sup>3</sup>AIR, Tsinghua University
+<sup>2</sup>Shanghai University
+
+(✉) Corresponding author.  
+
+
 <a href="https://arxiv.org/abs/{}"><img src='https://img.shields.io/badge/Paper-FlowDrive-blue?logo=arxiv' alt='Paper PDF'></a>
 <a href="https://github.com/IRL-VLA/{}"><img src='https://img.shields.io/badge/%E2%9C%A8Weights-FlowDrive-red' alt='HuggingFace'></a>
 <a href="https://astrixdrive.github.io/FlowDrive.github.io/"><img src='https://img.shields.io/badge/ProjectPage-FlowDrive-green?logo=githubpages' alt='HuggingFace'></a>
@@ -21,20 +32,22 @@
 
 ## Abstract         
 <div align="justify">
-Recent advances in end-to-end autonomous driving leverage multi-view images to construct bird’s-eye-view (BEV) representations for environment understanding and motion prediction. While BEV features offer a compact and holistic encoding of the driving scene, they inherently lack explicit modeling of risk and guidance priors for safe and interpretable planning. In addition, existing frameworks often tightly couple motion pattern prediction with trajectory generation within the planning module, limiting flexibility and undermining the system's ability to generalize across diverse driving scenarios. To address these challenges, we propose FlowDrive, a novel motion-decoupled end-to-end driving framework based on flow field modeling. FlowDrive introduces risk potential fields and lane attraction fields, to construct continuous and physically interpretable motion flow fields that represent both dynamic and static elements in the environment. These flow-based representations augment BEV features with fine-grained safety-aware guidance, enabling more robust and rational trajectory planning. Furthermore, we incorporate an adaptive anchor refinement mechanism, which dynamically dynamically adjusts trajectory anchors to evolving scene context, improving planning precision and responsiveness. Furthermore, FlowDrive decouples motion-mode prediction from trajectory generation, enhancing planning interpretability and flexibility. Extensive experiments conducted on the NAVSIM v2 autonomous driving benchmark demonstrate that FlowDrive achieves state-of-the-art performance, reaching an EPDMS score of 86.3, significantly outperforming other baselines.
+Recent advances in end-to-end autonomous driving leverage multi-view images to construct BEV representations for motion planning. In motion planning, autonomous vehicles need considering both hard constraints imposed by geometrically occupied obstacles (e.g., vehicles,  pedestrians) and soft, rule-based semantics with no explicit geometry (e.g., lane boundaries, traffic priors).  However, existing end-to-end frameworks typically rely on BEV features learned in an implicit manner, lacking explicit modeling of risk and guidance priors for safe and interpretable planning. To address this, we propose FlowDrive, a novel framework that introduces physically interpretable energy-based flow fields—including risk potential and lane attraction fields—to encode semantic priors and safety cues into the BEV space. These flow-aware features enable adaptive refinement of anchor trajectories and serve as interpretable guidance for trajectory generation. Moreover, FlowDrive decouples motion intent prediction from trajectory denoising via a conditional diffusion planner with feature-level gating, alleviating task interference and enhancing multimodal diversity. Experiments on the NAVSIM v2 benchmark demonstrate that FlowDrive achieves state-of-the-art performance with an EPDMS of 86.3, surpassing prior baselines in both safety and planning quality.
 </div>
 
 
 ## News
-`[2025/09/12]` [ArXiv](https://arxiv.org/abs/{}) paper release. Code/Models are coming soon. Please stay tuned! ☕️\
+## News
+<!-- * **` Aug. 24th, 2025`:** We have released all driving pretraining QA, including 12 driving datasets and our own annotated NavSim data. We have rewritten the scoring, filtering, and evaluation for open-source data. If it’s helpful to you, feel free to star and cite our work! 🚗💨
+* **` Aug. 21th, 2025`:** We release the initial version of code and weight on NAVSIM, along with documentation and training/evaluation scripts. We will also update our new revision of the paper and the pretraining datasets later this month or next month. Please stay tuned! ☕️ -->
+* **`[2025/09/21]`:** We released our paper on [Arxiv](https://arxiv.org/abs/{}). Code/Models are coming soon. Please stay tuned! ☕️
+
 
 ## Updates
 We are going to release code step by step:
-
-- [ ] Code for flow field construction
-- [ ] Weights of model
-- [ ] tutorial for installation
-- [ ] initial repo & main paper
+- [x] Release Paper  
+- [] Release Full Models and Training/Evaluation Framework   
+- [] Release updated paper
 
 Note: Code needs to be cleaned and I will open source all the code within next several month. As I promised.
 
