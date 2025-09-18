@@ -38,7 +38,7 @@ We are going to release code step by step:
 - [ ] Release Full Models and Training/Evaluation Framework   
 - [ ] Release updated paper
 
-Please note: The codebase is currently undergoing refactoring and polishing to prepare for its public release. We are committed to open-sourcing the full project and plan to do so in the coming months.
+**Please note:** The codebase is currently undergoing refactoring and polishing to prepare for its public release. We are committed to open-sourcing the full project and plan to do so in the coming months.
 
 ## Table of Contents
 - [Abstract](#Abstract)
