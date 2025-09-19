@@ -72,7 +72,15 @@ FlowDrive is greatly inspired by the following outstanding contributions to the 
 If you find FlowDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
 ```bibtex
-xxx
+@misc{jiang2025flowdriveenergyflowfield,
+      title={FlowDrive: Energy Flow Field for End-to-End Autonomous Driving}, 
+      author={Hao Jiang and Zhipeng Zhang and Yu Gao and Zhigang Sun and Yiru Wang and Yuwen Heng and Shuo Wang and Jinhao Chai and Zhuo Chen and Hao Zhao and Hao Sun and Xi Zhang and Anqing Jiang and Chuan Hu},
+      year={2025},
+      eprint={2509.14303},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2509.14303}, 
+}
 ```
 
 
