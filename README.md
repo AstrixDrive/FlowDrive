@@ -29,7 +29,7 @@
 ## News
 <!-- * **` Aug. 24th, 2025`:** We have released all driving pretraining QA, including 12 driving datasets and our own annotated NavSim data. We have rewritten the scoring, filtering, and evaluation for open-source data. If it’s helpful to you, feel free to star and cite our work! 🚗💨
 * **` Aug. 21th, 2025`:** We release the initial version of code and weight on NAVSIM, along with documentation and training/evaluation scripts. We will also update our new revision of the paper and the pretraining datasets later this month or next month. Please stay tuned! ☕️ -->
-* **`[2025/09/21]`:** We released our paper on [Arxiv](https://arxiv.org/abs/{}). Code/Models are coming soon. Please stay tuned! ☕️
+* **`[2025/09/19]`:** We released our paper on [Arxiv](https://arxiv.org/abs/{}). Code/Models are coming soon. Please stay tuned! ☕️
 
 
 ## Updates
