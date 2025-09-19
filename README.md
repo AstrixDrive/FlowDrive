@@ -11,7 +11,7 @@
 (✉) Corresponding author.  
 
 
-<a href="https://arxiv.org/abs/{}"><img src='https://img.shields.io/badge/Paper-FlowDrive-blue?logo=arxiv' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2509.14303"><img src='https://img.shields.io/badge/Paper-FlowDrive-blue?logo=arxiv' alt='Paper PDF'></a>
 <a href="https://github.com/IRL-VLA/{}"><img src='https://img.shields.io/badge/%E2%9C%A8Weights-FlowDrive-red' alt='HuggingFace'></a>
 <a href="https://astrixdrive.github.io/FlowDrive.github.io/"><img src='https://img.shields.io/badge/ProjectPage-FlowDrive-green?logo=githubpages' alt='HuggingFace'></a>
 <!-- <a href="https://ieeexplore.ieee.org/document/10592819"><img src='https://img.shields.io/badge/arXiv-SemanticFormer-blue' alt='Paper PDF'></a>
@@ -29,7 +29,7 @@
 ## News
 <!-- * **` Aug. 24th, 2025`:** We have released all driving pretraining QA, including 12 driving datasets and our own annotated NavSim data. We have rewritten the scoring, filtering, and evaluation for open-source data. If it’s helpful to you, feel free to star and cite our work! 🚗💨
 * **` Aug. 21th, 2025`:** We release the initial version of code and weight on NAVSIM, along with documentation and training/evaluation scripts. We will also update our new revision of the paper and the pretraining datasets later this month or next month. Please stay tuned! ☕️ -->
-* **`[2025/09/19]`:** We released our paper on [Arxiv](https://arxiv.org/abs/{}). Code/Models are coming soon. Please stay tuned! ☕️
+* **`[2025/09/19]`:** We released our paper on [Arxiv](https://arxiv.org/abs/2509.14303). Code/Models are coming soon. Please stay tuned! ☕️
 
 
 ## Updates
